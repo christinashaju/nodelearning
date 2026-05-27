@@ -10,7 +10,7 @@ pool.connect()
     console.log("PostgreSQL Connected");
 })
 .catch((err) => {
-    console.log("DB Connection Error:", err);
+    console.log("DB Connection Error::", err);
 });
 
 module.exports = pool;
